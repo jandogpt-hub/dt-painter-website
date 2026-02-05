@@ -7,7 +7,7 @@ include 'includes/header.php';
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
-        <h1>Transform Your Space with Expert Painting</h1>
+        <h1>Transform Your Space with Premium Painting</h1>
         <p>Coral Springs' trusted painting professionals. Interior, exterior, and cabinet refinishing with a 5-star reputation.</p>
         <div class="hero-cta">
             <a href="tel:<?php echo preg_replace('/[^0-9]/', '', SITE_PHONE); ?>" class="btn btn-secondary">Call Now</a>
