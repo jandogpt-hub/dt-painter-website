@@ -6,7 +6,7 @@
 
 // Site Information
 define('SITE_NAME', 'DT Painter');
-define('SITE_TAGLINE', 'Professional Painting Services in Coral Springs, FL');
+define('SITE_TAGLINE', 'Expert Painting Services in Coral Springs, FL');
 define('SITE_PHONE', '(954) 555-1234'); // Replace with actual
 define('SITE_EMAIL', 'info@dtpainter.com'); // Replace with actual
 
