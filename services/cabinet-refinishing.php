@@ -32,10 +32,7 @@ include '../includes/header.php';
                 </ul>
             </div>
             <div class="service-image">
-                <!-- Placeholder for high-quality cabinet photo -->
-                <div style="background: var(--color-gray-200); height: 100%; min-height: 300px; border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: center; color: var(--color-gray-500);">
-                    [Cabinet Transformation Photo]
-                </div>
+                <img src="<?php echo get_dt_image('-AQBLKKXxNxBP0vnaNmCf8PJGMgwSNGXjQxewNvVz5SATHOWluAUZplRGexZrd6UkBeIcyNlD4MptfVo-g_s0_mhocfp.jpg'); ?>" alt="Professional Cabinet Refinishing Transformation" class="img-fluid rounded">
             </div>
         </div>
     </div>

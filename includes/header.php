@@ -1,4 +1,7 @@
-<?php require_once __DIR__ . '/config.php'; ?>
+<?php 
+require_once __DIR__ . '/config.php'; 
+require_once __DIR__ . '/image-helper.php'; 
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

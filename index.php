@@ -67,6 +67,30 @@ include 'includes/header.php';
     </div>
 </section>
 
+<!-- Recent Work Gallery -->
+<section class="section">
+    <div class="container text-center">
+        <h2 class="mb-4">Recent Transformations</h2>
+        <div class="grid-3">
+            <div class="gallery-item">
+                <img src="<?php echo get_dt_image('-AQBLKKXxNxBP0vnaNmCf8PJGMgwSNGXjQxewNvVz5SATHOWluAUZplRGexZrd6UkBeIcyNlD4MptfVo-g_s0_mhocfp.jpg'); ?>" alt="Cabinet Refinishing Result" class="img-fluid rounded">
+                <p class="mt-1">Cabinet Refinishing</p>
+            </div>
+            <div class="gallery-item">
+                <img src="<?php echo get_dt_image('sample-exterior.jpg'); ?>" alt="Exterior Painting Parkland" class="img-fluid rounded">
+                <p class="mt-1">Hand-Painted Exterior</p>
+            </div>
+            <div class="gallery-item">
+                <img src="<?php echo get_dt_image('sample-popcorn.jpg'); ?>" alt="Popcorn Ceiling Removal" class="img-fluid rounded">
+                <p class="mt-1">Popcorn Texture Removal</p>
+            </div>
+        </div>
+        <div class="mt-4">
+            <a href="/gallery.php" class="btn btn-primary">View Full Gallery</a>
+        </div>
+    </div>
+</section>
+
 <!-- CTA Section -->
 <section class="section section-dark">
     <div class="container text-center">

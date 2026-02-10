@@ -7,17 +7,22 @@
 // Site Information
 define('SITE_NAME', 'DT Painter');
 define('SITE_TAGLINE', 'Expert Painting Services in Coral Springs, FL');
-define('SITE_PHONE', '(954) 555-1234'); // Replace with actual
+define('SITE_PHONE', '(954) 250-7399');
 define('SITE_EMAIL', 'info@dtpainter.com'); // Replace with actual
 
 // Social Media (update with actual links)
-define('SOCIAL_FACEBOOK', '');
-define('SOCIAL_INSTAGRAM', '');
-define('SOCIAL_GOOGLE', '');
+define('SOCIAL_FACEBOOK', 'https://www.facebook.com/dtpainter');
+define('SOCIAL_INSTAGRAM', 'https://www.instagram.com/dtpainterllc/');
+define('SOCIAL_LINKEDIN', 'https://www.linkedin.com/company/dt-painter-llc-/about/');
 
 // Business Info for Schema
-define('BUSINESS_ADDRESS', 'Coral Springs, FL');
+define('BUSINESS_ADDRESS', '2500 NW 115th Dr, Coral Springs, FL 33065');
 define('BUSINESS_HOURS', 'Mo-Fr 08:00-18:00, Sa 09:00-14:00');
+
+// Cloudinary Configuration
+define('CLOUDINARY_CLOUD_NAME', 'dnwirrcev');
+define('CLOUDINARY_LOGO_ID', 'dt-painter-coral-springs-logo_bnldfl');
+
 
 // Helper function to get asset path
 function asset($path) {
