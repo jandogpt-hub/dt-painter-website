@@ -169,7 +169,7 @@ include 'includes/header.php';
                             src="https://res.cloudinary.com/dnwirrcev/image/upload/v1771098037/after-np-kitchen-cabinet-refinishing-b123-dt-painter_xdikz9.jpg" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-80"></div>
                         <div class="absolute bottom-6 left-6">
-                            <span class="text-[10px] tracking-[0.2em] bg-brand-red px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Gold Mine Service</span>
+                            <span class="text-[10px] tracking-[0.2em] bg-brand-red px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Showroom Finish</span>
                             <h4 class="text-2xl font-bold text-white tracking-tight">Cabinet<br/>Refinishing</h4>
                         </div>
                     </div>
@@ -187,7 +187,7 @@ include 'includes/header.php';
                             src="https://res.cloudinary.com/dnwirrcev/image/upload/v1771105122/after-np-exterior-painting-a123-dt-painter-coral-springs-fl_y5ax8n.jpg" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-80"></div>
                         <div class="absolute bottom-6 left-6">
-                            <span class="text-[10px] tracking-[0.2em] bg-gray-800 px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Home Armor</span>
+                            <span class="text-[10px] tracking-[0.2em] bg-gray-800 px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Weather Defense</span>
                             <h4 class="text-2xl font-bold text-white tracking-tight">Exterior<br/>Painting</h4>
                         </div>
                     </div>
@@ -205,7 +205,7 @@ include 'includes/header.php';
                             src="https://res.cloudinary.com/dnwirrcev/image/upload/v1771108107/np-popcorn-removal-a123-dt-painter-coral-springs-fl_xpwsee.jpg" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-80"></div>
                         <div class="absolute bottom-6 left-6">
-                            <span class="text-[10px] tracking-[0.2em] bg-gray-800 px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Modernizer</span>
+                            <span class="text-[10px] tracking-[0.2em] bg-gray-800 px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Modern Aesthetic</span>
                             <h4 class="text-2xl font-bold text-white tracking-tight">Popcorn<br/>Removal</h4>
                         </div>
                     </div>
@@ -223,7 +223,7 @@ include 'includes/header.php';
                             src="https://res.cloudinary.com/dnwirrcev/image/upload/v1771108014/np-interior-painting-a123-dt-painter-coral-springs-fl_r8qg2k.jpg" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-80"></div>
                         <div class="absolute bottom-6 left-6">
-                            <span class="text-[10px] tracking-[0.2em] bg-gray-800 px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Precision</span>
+                            <span class="text-[10px] tracking-[0.2em] bg-gray-800 px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Luxury Living</span>
                             <h4 class="text-2xl font-bold text-white tracking-tight">Interior<br/>Painting</h4>
                         </div>
                     </div>
@@ -241,7 +241,7 @@ include 'includes/header.php';
                             src="https://res.cloudinary.com/dnwirrcev/image/upload/v1771135866/np-commercial-painting-b123-dt-painter-coral-springs-fl_n6q6cl.jpg" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-80"></div>
                         <div class="absolute bottom-6 left-6">
-                            <span class="text-[10px] tracking-[0.2em] bg-gray-800 px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Business Solutions</span>
+                            <span class="text-[10px] tracking-[0.2em] bg-gray-800 px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Brand Power</span>
                             <h4 class="text-2xl font-bold text-white tracking-tight">Commercial<br/>Painting</h4>
                         </div>
                     </div>
@@ -259,7 +259,7 @@ include 'includes/header.php';
                             src="https://res.cloudinary.com/dnwirrcev/image/upload/v1771134140/np-pressure-washing-a123-dt-painter-coral-springs-fl_ao1phm.jpg" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-80"></div>
                         <div class="absolute bottom-6 left-6">
-                            <span class="text-[10px] tracking-[0.2em] bg-gray-800 px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Deep Clean</span>
+                            <span class="text-[10px] tracking-[0.2em] bg-gray-800 px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Instant Renewal</span>
                             <h4 class="text-2xl font-bold text-white tracking-tight">Pressure<br/>Washing</h4>
                         </div>
                     </div>
@@ -277,7 +277,7 @@ include 'includes/header.php';
                             src="https://res.cloudinary.com/dnwirrcev/image/upload/v1771135163/dt-painter-garage-door-restoration-coral-springs-boca-raton-fl-002_rfjyfg.jpg" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-80"></div>
                         <div class="absolute bottom-6 left-6">
-                            <span class="text-[10px] tracking-[0.2em] bg-gray-800 px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Curb Appeal</span>
+                            <span class="text-[10px] tracking-[0.2em] bg-gray-800 px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Statement Entry</span>
                             <h4 class="text-2xl font-bold text-white tracking-tight">Garage Door<br/>Restoration</h4>
                         </div>
                     </div>
@@ -295,7 +295,7 @@ include 'includes/header.php';
                             src="https://res.cloudinary.com/dnwirrcev/image/upload/v1771138554/np-garage-floor-refinishing-a123-dt-painter_ytkblt.jpg" />
                         <div class="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent opacity-80"></div>
                         <div class="absolute bottom-6 left-6">
-                            <span class="text-[10px] tracking-[0.2em] bg-gray-800 px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Custom</span>
+                            <span class="text-[10px] tracking-[0.2em] bg-gray-800 px-2 py-0.5 mb-3 inline-block text-white uppercase font-bold">Unique Vision</span>
                             <h4 class="text-2xl font-bold text-white tracking-tight">Special<br/>Projects</h4>
                         </div>
                     </div>
@@ -322,12 +322,12 @@ include 'includes/header.php';
                 <div class="md:col-span-8 md:row-span-2 relative group overflow-hidden">
                     <img alt="Aria Financial District"
                         class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYsp1rkioFw3Dg2_ahp7xoiZtZvWY3n3aB90UWd1DKMQcPVTPrQbTcvRXcDxmbN2EA_iN_hq6dCkti6No-ap-5KiU6uAVzzV2O3EvGrtKsNNK24lCl9Y6Rm-_lI-j7H1kFp7OA-3-iHsIHdpUSkVY5BbphyzKoTLtSKbak9c1srfUsc0ZNJCdr2a8aRpeorU59-CKFmz1tiAR71txakKAZWuXrGYu3FzctywH6q2YhzDTZsnWJUObqxSqFlj9pB3XLAZ11HZBjCG8" />
+                        src="https://res.cloudinary.com/dnwirrcev/image/upload/v1771140204/home-our-work-section-image-dt-painter_ddze02.jpg" />
                     <div class="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-all"></div>
                     <div class="absolute bottom-8 left-8">
                         <span
-                            class="text-brand-red text-[10px] font-bold tracking-widest mb-2 block uppercase">Commercial</span>
-                        <h3 class="text-3xl font-bold tracking-tight text-white">Aria Financial District</h3>
+                            class="text-brand-red text-[10px] font-bold tracking-widest mb-2 block uppercase">Curb Appeal</span>
+                        <h3 class="text-3xl font-bold tracking-tight text-white">Estate Transformation</h3>
                     </div>
                 </div>
                 <!-- Medium Item -->
