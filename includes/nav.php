@@ -1,7 +1,7 @@
 <header class="site-header">
     <div class="header-container">
         <a href="/" class="logo">
-            <img src="<?php echo asset('images/logo.png'); ?>" alt="<?php echo SITE_NAME; ?> Logo">
+            <img src="<?php echo asset('images/logo.jpg'); ?>" alt="<?php echo SITE_NAME; ?> Logo">
         </a>
         
         <nav class="main-nav">

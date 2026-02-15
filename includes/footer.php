@@ -1,32 +1,67 @@
-    </main>
-    
-    <footer>
-        <div class="footer-container">
-            <div class="footer-info">
-                <h4><?php echo SITE_NAME; ?></h4>
-                <p><?php echo BUSINESS_ADDRESS; ?></p>
-                <p><a href="tel:<?php echo preg_replace('/[^0-9]/', '', SITE_PHONE); ?>"><?php echo SITE_PHONE; ?></a></p>
-                <p><a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a></p>
+    <!-- BEGIN: Footer -->
+    <footer class="bg-brand-dark border-t border-white/5 pt-24 pb-12 text-white">
+        <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
+            <div class="space-y-6">
+                <!-- Logo/Brand Area -->
+                <div class="flex items-center gap-2">
+                     <span class="text-2xl font-black tracking-tighter text-white">DT<span class="text-brand-red">PAINTER</span></span>
+                </div>
+                <p class="text-gray-500 text-xs leading-relaxed max-w-xs">
+                    Licensed Cabinet Refinishing & Residential Painting Specialist for Coral Springs and Parkland homeowners. Factory-grade finishes without the renovation price tag.
+                </p>
+                <div class="text-xs text-brand-red font-mono border border-brand-red/20 inline-block px-2 py-1 rounded bg-brand-red/5">
+                    License: CC #13-P-18294-X
+                </div>
             </div>
-            <div class="footer-links">
-                <h4>Services</h4>
-                <ul>
-                    <li><a href="/services/interior-painting.php">Interior Painting</a></li>
-                    <li><a href="/services/exterior-painting.php">Exterior Painting</a></li>
-                    <li><a href="/services/cabinet-refinishing.php">Cabinet Refinishing</a></li>
-                    <li><a href="/services/pressure-washing.php">Pressure Washing</a></li>
+            <div>
+                <h4 class="text-xs font-bold tracking-widest uppercase mb-8 text-white">Services</h4>
+                <ul class="space-y-4 text-xs text-gray-400 font-medium">
+                    <li><a class="hover:text-brand-red transition-colors" href="/services/cabinet-refinishing.php">Cabinet Refinishing</a></li>
+                    <li><a class="hover:text-brand-red transition-colors" href="/services/interior-painting.php">Interior Painting</a></li>
+                    <li><a class="hover:text-brand-red transition-colors" href="/services/exterior-painting.php">Exterior Painting</a></li>
+                    <li><a class="hover:text-brand-red transition-colors" href="/services/drywall-texture.php">Drywall & Texture</a></li>
+                    <li><a class="hover:text-brand-red transition-colors" href="/services/pressure-washing.php">Pressure Washing</a></li>
                 </ul>
             </div>
-            <div class="footer-cta">
-                <a href="tel:<?php echo preg_replace('/[^0-9]/', '', SITE_PHONE); ?>" class="btn btn-primary">Call Now</a>
+            <div>
+                <h4 class="text-xs font-bold tracking-widest uppercase mb-8 text-white">Service Areas</h4>
+                <ul class="space-y-4 text-xs text-gray-400 font-medium">
+                    <li><a class="hover:text-brand-red transition-colors" href="/areas/coral-springs.php">Coral Springs</a></li>
+                    <li><a class="hover:text-brand-red transition-colors" href="/areas/parkland.php">Parkland</a></li>
+                    <li><a class="hover:text-brand-red transition-colors" href="/areas/coconut-creek.php">Coconut Creek</a></li>
+                    <li><a class="hover:text-brand-red transition-colors" href="/areas/margate.php">Margate</a></li>
+                    <li><a class="hover:text-brand-red transition-colors" href="/areas/eagle-trace.php">Eagle Trace</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="text-xs font-bold tracking-widest uppercase mb-8 text-white">Contact</h4>
+                <ul class="space-y-4 text-xs text-gray-400 font-medium">
+                    <li class="flex items-start gap-3">
+                        <div class="w-1.5 h-1.5 rounded-full bg-brand-red mt-1.5"></div>
+                        <span>2500 NW 115th Dr,<br>Coral Springs, FL 33065</span>
+                    </li>
+                    <li class="flex items-center gap-3">
+                        <div class="w-1.5 h-1.5 rounded-full bg-brand-red"></div>
+                        <a href="mailto:info@dtpainter.com" class="hover:text-white transition-colors">info@dtpainter.com</a>
+                    </li>
+                     <li class="flex items-center gap-3">
+                        <div class="w-1.5 h-1.5 rounded-full bg-brand-red"></div>
+                        <a href="tel:<?php echo defined('SITE_PHONE') ? preg_replace('/[^0-9]/', '', SITE_PHONE) : '5551234567'; ?>" class="hover:text-white transition-colors text-white font-bold"><?php echo defined('SITE_PHONE') ? SITE_PHONE : '(555) 123-4567'; ?></a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; <?php echo currentYear(); ?> <?php echo SITE_NAME; ?>. All rights reserved.</p>
-            <p>Licensed & Insured | CC #13-P-18294-X</p>
+        <div
+            class="max-w-7xl mx-auto px-6 pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
+            <p class="text-[10px] text-gray-500 tracking-widest uppercase">© <?php echo date('Y'); ?> DT Painter, LLC. All Rights Reserved.</p>
+            <div class="flex gap-8">
+                <a class="text-[10px] text-gray-500 tracking-widest uppercase hover:text-white transition-colors"
+                    href="/privacy.php">Privacy Policy</a>
+                <a class="text-[10px] text-gray-500 tracking-widest uppercase hover:text-white transition-colors"
+                    href="/terms.php">Terms of Service</a>
+            </div>
         </div>
     </footer>
-    
-    <script src="<?php echo asset('js/main.js'); ?>"></script>
+    <!-- END: Footer -->
 </body>
 </html>
