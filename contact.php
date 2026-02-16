@@ -143,7 +143,7 @@ include 'includes/header.php';
                 <div class="bg-[#0F0F0F] border border-white/10 rounded-sm p-8">
                     <h3 class="text-2xl font-bold text-white mb-6">Request a Free Quote</h3>
                     
-                    <form id="contactForm" method="POST" action="process-contact.php" class="space-y-6">
+                    <form id="contactForm" method="POST" action="process-contact" class="space-y-6">
                         <!-- Name -->
                         <div>
                             <label for="name" class="block text-sm font-bold text-white mb-2">
