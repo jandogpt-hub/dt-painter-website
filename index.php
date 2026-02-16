@@ -54,7 +54,7 @@ include 'includes/header.php';
                         Residential - Commercial Painting Company
                     </h2>
                     <p class="text-lg text-gray-400 font-medium uppercase tracking-widest">
-                        Coral Springs • Parkland • Boca Raton • Fort Lauderdale • Pompano Beach
+                        Coral Springs • Parkland • Boca Raton • Fort Lauderdale
                     </p>
                 </div>
 
