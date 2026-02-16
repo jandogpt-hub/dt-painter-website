@@ -1,8 +1,22 @@
 <?php
 /**
+/**
  * DT Painter - Configuration File
  * Contains site-wide settings and constants
  */
+
+// Function to safely load environment variables
+if (!defined('allowed')) define('allowed', true);
+
+// Include secrets if available
+if (file_exists(__DIR__ . '/secrets.php')) {
+    include_once __DIR__ . '/secrets.php';
+}
+
+// Define defaults if not set (for development/git clones)
+if (!defined('TURNSTILE_SITE_KEY')) define('TURNSTILE_SITE_KEY', '');
+if (!defined('TURNSTILE_SECRET_KEY')) define('TURNSTILE_SECRET_KEY', '');
+if (!defined('FORM_RECIPIENT')) define('FORM_RECIPIENT', 'info@dtpainter.com');
 
 // Site Information
 define('SITE_NAME', 'DT Painter');

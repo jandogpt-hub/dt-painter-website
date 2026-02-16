@@ -227,7 +227,7 @@ include 'includes/header.php';
                         </div>
 
                         <!-- Cloudflare Turnstile -->
-                        <div id="turnstile-container" class="cf-turnstile" data-sitekey="REPLACE_WITH_YOUR_TURNSTILE_SITE_KEY"></div>
+                        <div id="turnstile-container" class="cf-turnstile" data-sitekey="<?php echo defined('TURNSTILE_SITE_KEY') ? TURNSTILE_SITE_KEY : ''; ?>"></div>
 
                         <!-- Submit Button -->
                         <button type="submit" 
@@ -299,7 +299,6 @@ include 'includes/header.php';
     <!-- Load Contact Form JavaScript -->
     <script src="assets/js/contact-form.js"></script>
     
-    <!-- Load Cloudflare Turnstile Script -->
-    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
 
 <?php include 'includes/footer.php'; ?>

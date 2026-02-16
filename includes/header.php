@@ -10,6 +10,9 @@ include_once __DIR__ . '/config.php';
     <meta name="description" content="<?php echo isset($pageDescription) ? $pageDescription : 'Professional painting services.'; ?>">
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
     
+    <!-- Cloudflare Turnstile -->
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
     <!-- Tailwind CSS v3 (CDN for Rapid Prototyping) -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     

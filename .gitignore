@@ -44,3 +44,6 @@ Thumbs.db
 # Uploaded files (if user uploads go to a specific folder)
 /uploads/*
 !/uploads/.gitkeep
+
+# Secrets
+includes/secrets.php

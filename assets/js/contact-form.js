@@ -49,10 +49,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 // Scroll to success message
                 formSuccess.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
-                // Optional: Redirect to thank you page after 3 seconds
-                // setTimeout(() => {
-                //     window.location.href = 'thank-you.php';
-                // }, 3000);
+                // Redirect to thank you page for conversion tracking
+                setTimeout(() => {
+                    window.location.href = '/thank-you.php';
+                }, 1500);
             } else {
                 // Show error message
                 formError.classList.remove('hidden');

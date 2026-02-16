@@ -4,6 +4,9 @@
  * Processes contact form submissions with Cloudflare Turnstile verification
  */
 
+// Load Configuration & Secrets
+require_once __DIR__ . '/includes/config.php';
+
 // Only allow POST requests
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
     header('HTTP/1.1 405 Method Not Allowed');
@@ -11,8 +14,9 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 }
 
 // Configuration
-$recipientEmail = 'info@dtpainter.com'; // Change to your actual email
-$turnstileSecretKey = 'YOUR_TURNSTILE_SECRET_KEY'; // Replace with your actual Turnstile secret key
+// Configuration
+$recipientEmail = defined('FORM_RECIPIENT') ? FORM_RECIPIENT : 'info@dtpainter.com';
+$turnstileSecretKey = defined('TURNSTILE_SECRET_KEY') ? TURNSTILE_SECRET_KEY : '';
 
 // Validate required fields
 $requiredFields = ['name', 'email', 'phone', 'service', 'message'];
@@ -76,6 +80,9 @@ $service = htmlspecialchars(trim($_POST['service']));
 $city = htmlspecialchars(trim($_POST['city'] ?? 'Not specified'));
 $message = htmlspecialchars(trim($_POST['message']));
 
+// Disable error display to prevent disrupting JSON response
+ini_set('display_errors', 0);
+
 // Compose email
 $subject = "New Quote Request from $name - $service";
 
@@ -133,9 +140,14 @@ $emailBody = "
 </html>
 ";
 
+// Use server name for From header to avoid spoofing rejections on shared hosting
+$serverDomain = $_SERVER['SERVER_NAME'];
+// Remove 'www.' if present
+$serverDomain = str_replace('www.', '', $serverDomain);
+
 // Email headers
 $headers = [
-    'From: DT Painter Website <noreply@dtpainter.com>',
+    'From: DT Painter Website <noreply@' . $serverDomain . '>',
     'Reply-To: ' . $email,
     'Content-Type: text/html; charset=UTF-8',
     'X-Mailer: PHP/' . phpversion()
@@ -143,6 +155,19 @@ $headers = [
 
 // Send email
 $emailSent = mail($recipientEmail, $subject, $emailBody, implode("\r\n", $headers));
+
+if (!$emailSent) {
+    // Log error if possible
+    error_log("Mail failure: Could not send to $recipientEmail");
+    
+    // Return error only (no auto-reply)
+    header('Content-Type: application/json');
+    echo json_encode([
+        'success' => false,
+        'errors' => ['System couldn\'t send email. Please call us at (954) 250-7399.']
+    ]);
+    exit;
+}
 
 // Send auto-reply to customer
 $autoReplySubject = "Thank you for contacting DT Painter!";
@@ -191,12 +216,13 @@ $autoReplyBody = "
 ";
 
 $autoReplyHeaders = [
-    'From: DT Painter <info@dtpainter.com>',
+    'From: DT Painter <noreply@' . $serverDomain . '>',
     'Content-Type: text/html; charset=UTF-8',
     'X-Mailer: PHP/' . phpversion()
 ];
 
-mail($email, $autoReplySubject, $autoReplyBody, implode("\r\n", $autoReplyHeaders));
+// Attempt auto-reply (don't fail main request if this fails)
+@mail($email, $autoReplySubject, $autoReplyBody, implode("\r\n", $autoReplyHeaders));
 
 // Return success response
 header('Content-Type: application/json');
