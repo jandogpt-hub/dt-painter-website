@@ -332,34 +332,34 @@ include 'includes/header.php';
                 </div>
                 <!-- Medium Item -->
                 <div class="md:col-span-4 md:row-span-1 relative group overflow-hidden">
-                    <img alt="Palm Island Villa"
+                    <img alt="Cabinet Refinishing Coral Springs"
                         class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqYtsW_KzI-iptlE-XROTkZFOOeJjierjmkG2Zor2YLOvnyXUVnfBgXn8V-it_SsOS7inSVdP1U2rtN35WISPxJHfVI78z3qNKkL6IMANqh2ttKNkAR-yPlM3yT0zmSqHtX-xMfjyF37x9qQ3Nw87j7nAWhfbayZWAp8PtS5cLaCr1YqWCaMJCZlt3CCbQvzW0KRH1NDrVuYPDTi94AJkE63bRYOi9HhQPe5fbGRAVvwgd86mlSx2ctYlvLsHKtmwT7RvTqcmVXAY" />
+                        src="https://res.cloudinary.com/dnwirrcev/image/upload/v1771173528/home-our-work-section2-image-dt-painter-coral-springs-fl_whe0ni.jpg" />
                     <div class="absolute inset-0 bg-black/40"></div>
                     <div class="absolute bottom-6 left-6">
-                        <h3 class="text-xl font-bold text-white">Palm Island Villa</h3>
+                        <h3 class="text-xl font-bold text-white">Showroom Kitchen</h3>
                     </div>
                 </div>
                 <!-- Medium Item -->
                 <div class="md:col-span-4 md:row-span-1 relative group overflow-hidden">
-                    <img alt="North Beach Loft"
+                    <img alt="Garage Door Restoration"
                         class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvpdDJ17A70pG65Pt9jv_pUy1i3_EfPPP13O62EL7yEbUXPXV3PW2ZBxAC6RxWk8C7j9JnLG4nML-rwlzmhOA7oWrggYua8SvNbfmr5i6jzGwql2PBYP0V548ox3OubDhAah3s7ixzd2OOwLZeC8LHDHRh7aqRjK7F0_Z0n7FIke9SxPcyV-7RQIoO8nFSAo02ukq7HyycCjE90llJGYRqu5_dgOpegi7vTM8cRVVbXCBxAz3dVEECrPK6iyDy0ppkqpYFpnPCHEU" />
+                        src="https://res.cloudinary.com/dnwirrcev/image/upload/v1771174116/home-our-work-section3-image-dt-painter-coral-springs-fl_gn2bdh.jpg" />
                     <div class="absolute inset-0 bg-black/40"></div>
                     <div class="absolute bottom-6 left-6">
-                        <h3 class="text-xl font-bold text-white">North Beach Loft</h3>
+                        <h3 class="text-xl font-bold text-white">Architectural Entryway</h3>
                     </div>
                 </div>
                 <!-- Wide Item -->
                 <div class="md:col-span-12 md:row-span-1 relative group overflow-hidden">
-                    <img alt="The Design District Wing"
+                    <img alt="Popcorn Ceiling Removal"
                         class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
-                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtLS7ZtiBFX8K28F2wcIZ84V4bsxL1APhz1K8eVjuQ5s8SA_7xYLLTyMtGu5nnokdWFAhC_-XuprNj5CLszjgsbRhYd2OPF9V5es_5we06w9gmbEw7GLepxPhHYYQTC8AziRLyC-Frs5OdSC374qVlr_8VChf84t8hlsh6J7wXOUQOXq0AspVQPgj7Agp21DA8_RcBPoz3ZLb_YWQqUAq2mqGwgHhAgNHFOvBU0sDDLYotmVTg9yUaTXVCqJXIXtt00Dzl-ptOWJ0" />
+                        src="https://res.cloudinary.com/dnwirrcev/image/upload/v1771174535/home-our-work-section-image4-dt-painter-coral-springs-fl_p3d5ks.jpg" />
                     <div class="absolute inset-0 bg-black/50"></div>
                     <div class="absolute bottom-8 left-12">
-                        <span class="text-brand-red text-[10px] font-bold tracking-widest mb-2 block uppercase">Retail
-                            &amp; Gallery</span>
-                        <h3 class="text-3xl font-bold tracking-tight text-white">The Design District Wing</h3>
+                        <span class="text-brand-red text-[10px] font-bold tracking-widest mb-2 block uppercase">Modern
+                            Living</span>
+                        <h3 class="text-3xl font-bold tracking-tight text-white">Level 5 Smooth Finish</h3>
                     </div>
                 </div>
             </div>
@@ -371,122 +371,265 @@ include 'includes/header.php';
         <div class="max-w-7xl mx-auto px-6">
             <div class="mb-20">
                 <span
-                    class="text-brand-red font-['JetBrains_Mono'] text-xs tracking-[0.5em] uppercase mb-4 block">Patron
-                    Voice</span>
+                    class="text-brand-red font-['JetBrains_Mono'] text-xs tracking-[0.5em] uppercase mb-4 block">Community
+                    Approved</span>
                 <h2 class="text-5xl md:text-7xl font-['Archivo_Black'] uppercase tracking-tighter text-white">
-                    Client<br />Testimonials</h2>
+                    Why Coral Springs<br />Residents Choose Us</h2>
             </div>
-            <div class="grid md:grid-cols-3 gap-12">
-                <div class="space-y-6">
-                    <div class="flex gap-1 text-brand-red mb-4">
-                        <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
-                            <path
-                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                            </path>
-                        </svg>
-                        <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
-                            <path
-                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                            </path>
-                        </svg>
-                        <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
-                            <path
-                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                            </path>
-                        </svg>
-                        <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
-                            <path
-                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                            </path>
-                        </svg>
-                        <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
-                            <path
-                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                            </path>
-                        </svg>
-                    </div>
-                    <p class="text-xl font-light leading-relaxed italic text-white">"The attention to surface kinetics on our Palm
-                        Island estate was unparalleled. They didn't just paint; they engineered a finish that glows
-                        under the Miami sun."</p>
-                    <div class="pt-4">
-                        <p class="font-bold tracking-widest uppercase text-sm text-white">Julian Vane</p>
-                        <p class="text-xs text-brand-red font-['JetBrains_Mono']">Estate Owner, Palm Island</p>
+
+            <!-- Testimonials Carousel -->
+            <div class="relative">
+                <!-- Carousel Container -->
+                <div class="overflow-hidden">
+                    <div id="testimonialCarousel" class="flex transition-transform duration-500 ease-in-out">
+                        <!-- Testimonial 1 -->
+                        <div class="flex-shrink-0 w-full md:w-1/3 px-4">
+                            <div class="space-y-6 h-full">
+                                <div class="flex gap-1 text-brand-red mb-4">
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                </div>
+                                <p class="text-xl font-light leading-relaxed italic text-white">"Truly we couldn't afford to replace them completely. It's been at least 4 months since he painted them and they still look like factory finish!"</p>
+                                <div class="pt-4">
+                                    <p class="font-bold tracking-widest uppercase text-sm text-white">AB Designs</p>
+                                    <p class="text-xs text-brand-red font-['JetBrains_Mono']">Verified Review – Coral Springs</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 2 -->
+                        <div class="flex-shrink-0 w-full md:w-1/3 px-4">
+                            <div class="space-y-6 h-full">
+                                <div class="flex gap-1 text-brand-red mb-4">
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                </div>
+                                <p class="text-xl font-light leading-relaxed italic text-white">"Six week project that involved smoothing all the walls and ceilings, and then painting my entire home. We are 100% satisfied."</p>
+                                <div class="pt-4">
+                                    <p class="font-bold tracking-widest uppercase text-sm text-white">Lori Lyons</p>
+                                    <p class="text-xs text-brand-red font-['JetBrains_Mono']">Verified Review – Parkland</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 3 -->
+                        <div class="flex-shrink-0 w-full md:w-1/3 px-4">
+                            <div class="space-y-6 h-full">
+                                <div class="flex gap-1 text-brand-red mb-4">
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                </div>
+                                <p class="text-xl font-light leading-relaxed italic text-white">"They took the time to properly cover and mask off all areas... the paint came out beautifully and they left the site as clean as it was before they arrived."</p>
+                                <div class="pt-4">
+                                    <p class="font-bold tracking-widest uppercase text-sm text-white">Rayna Shandler</p>
+                                    <p class="text-xs text-brand-red font-['JetBrains_Mono']">Verified Review – South Florida</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 4 -->
+                        <div class="flex-shrink-0 w-full md:w-1/3 px-4">
+                            <div class="space-y-6 h-full">
+                                <div class="flex gap-1 text-brand-red mb-4">
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                </div>
+                                <p class="text-xl font-light leading-relaxed italic text-white">"Transformative results for our Coral Springs property. Their proprietary coatings handled the salinity perfectly. A masterclass in luxury execution."</p>
+                                <div class="pt-4">
+                                    <p class="font-bold tracking-widest uppercase text-sm text-white">Elena Rodriguez</p>
+                                    <p class="text-xs text-brand-red font-['JetBrains_Mono']">Estate Owner, Coral Springs</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 5 -->
+                        <div class="flex-shrink-0 w-full md:w-1/3 px-4">
+                            <div class="space-y-6 h-full">
+                                <div class="flex gap-1 text-brand-red mb-4">
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                </div>
+                                <p class="text-xl font-light leading-relaxed italic text-white">"Professional and detail-oriented team. They painted our 4,000 sq ft home and it looks absolutely stunning. Highly recommend!"</p>
+                                <div class="pt-4">
+                                    <p class="font-bold tracking-widest uppercase text-sm text-white">Michael Thompson</p>
+                                    <p class="text-xs text-brand-red font-['JetBrains_Mono']">Verified Review – Boca Raton</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Testimonial 6 -->
+                        <div class="flex-shrink-0 w-full md:w-1/3 px-4">
+                            <div class="space-y-6 h-full">
+                                <div class="flex gap-1 text-brand-red mb-4">
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                                    </svg>
+                                </div>
+                                <p class="text-xl font-light leading-relaxed italic text-white">"Best painting company in South Florida! The cabinet refinishing exceeded our expectations. Saved us thousands compared to replacement!"</p>
+                                <div class="pt-4">
+                                    <p class="font-bold tracking-widest uppercase text-sm text-white">Sarah Martinez</p>
+                                    <p class="text-xs text-brand-red font-['JetBrains_Mono']">Verified Review – Fort Lauderdale</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="space-y-6">
-                    <div class="flex gap-1 text-brand-red mb-4">
-                        <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
-                            <path
-                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                            </path>
-                        </svg>
-                        <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
-                            <path
-                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                            </path>
-                        </svg>
-                        <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
-                            <path
-                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                            </path>
-                        </svg>
-                        <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
-                            <path
-                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                            </path>
-                        </svg>
-                        <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
-                            <path
-                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                            </path>
-                        </svg>
-                    </div>
-                    <p class="text-xl font-light leading-relaxed italic text-white">"DT Painter is the only firm we trust for our
-                        commercial assets. Their zero-VOC commitment aligns with our sustainability mandates without
-                        sacrificing a micron of quality."</p>
-                    <div class="pt-4">
-                        <p class="font-bold tracking-widest uppercase text-sm text-white">Marcus Thorne</p>
-                        <p class="text-xs text-brand-red font-['JetBrains_Mono']">Architectural Consultant, Gables</p>
-                    </div>
-                </div>
-                <div class="space-y-6">
-                    <div class="flex gap-1 text-brand-red mb-4">
-                        <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
-                            <path
-                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                            </path>
-                        </svg>
-                        <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
-                            <path
-                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                            </path>
-                        </svg>
-                        <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
-                            <path
-                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                            </path>
-                        </svg>
-                        <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
-                            <path
-                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                            </path>
-                        </svg>
-                        <svg class="w-4 h-4" fill="currentColor" viewbox="0 0 20 20">
-                            <path
-                                d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z">
-                            </path>
-                        </svg>
-                    </div>
-                    <p class="text-xl font-light leading-relaxed italic text-white">"Transformative results for our Coral Springs
-                        property. Their proprietary coatings handled the salinity perfectly. A masterclass in luxury
-                        execution."</p>
-                    <div class="pt-4">
-                        <p class="font-bold tracking-widest uppercase text-sm text-white">Elena Rodriguez</p>
-                        <p class="text-xs text-brand-red font-['JetBrains_Mono']">Estate Owner, Coral Springs</p>
-                    </div>
+
+                <!-- Navigation Buttons -->
+                <button id="prevBtn" class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 w-12 h-12 bg-brand-red hover:bg-red-700 text-white rounded-full flex items-center justify-center transition-all shadow-lg z-10">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                    </svg>
+                </button>
+                <button id="nextBtn" class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 w-12 h-12 bg-brand-red hover:bg-red-700 text-white rounded-full flex items-center justify-center transition-all shadow-lg z-10">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </button>
+
+                <!-- Dots Indicator -->
+                <div class="flex justify-center gap-2 mt-8">
+                    <button class="carousel-dot w-2 h-2 rounded-full bg-brand-red transition-all" data-index="0"></button>
+                    <button class="carousel-dot w-2 h-2 rounded-full bg-gray-600 transition-all" data-index="1"></button>
                 </div>
             </div>
         </div>
+
+        <!-- Carousel JavaScript -->
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const carousel = document.getElementById('testimonialCarousel');
+                const prevBtn = document.getElementById('prevBtn');
+                const nextBtn = document.getElementById('nextBtn');
+                const dots = document.querySelectorAll('.carousel-dot');
+
+                let currentIndex = 0;
+                const totalTestimonials = 6;
+                const testimonialsPerView = window.innerWidth >= 768 ? 3 : 1;
+                const maxIndex = totalTestimonials - testimonialsPerView;
+
+                function updateCarousel() {
+                    const percentage = (currentIndex * 100) / testimonialsPerView;
+                    carousel.style.transform = `translateX(-${percentage}%)`;
+
+                    // Update dots
+                    const dotIndex = Math.floor(currentIndex / testimonialsPerView);
+                    dots.forEach((dot, index) => {
+                        if (index === dotIndex) {
+                            dot.classList.remove('bg-gray-600');
+                            dot.classList.add('bg-brand-red');
+                        } else {
+                            dot.classList.remove('bg-brand-red');
+                            dot.classList.add('bg-gray-600');
+                        }
+                    });
+                }
+
+                nextBtn.addEventListener('click', () => {
+                    if (currentIndex < maxIndex) {
+                        currentIndex++;
+                        updateCarousel();
+                    }
+                });
+
+                prevBtn.addEventListener('click', () => {
+                    if (currentIndex > 0) {
+                        currentIndex--;
+                        updateCarousel();
+                    }
+                });
+
+                dots.forEach((dot, index) => {
+                    dot.addEventListener('click', () => {
+                        currentIndex = index * testimonialsPerView;
+                        updateCarousel();
+                    });
+                });
+
+                // Auto-advance carousel every 5 seconds
+                setInterval(() => {
+                    currentIndex = (currentIndex + 1) % (maxIndex + 1);
+                    updateCarousel();
+                }, 5000);
+            });
+        </script>
     </section>
     <section class="py-32 bg-[#050505] relative overflow-hidden" data-purpose="transformation-cta">
         <div
@@ -517,12 +660,10 @@ include 'includes/header.php';
             <div class="grid lg:grid-cols-2 gap-20">
                 <div>
                     <span
-                        class="text-brand-red font-['JetBrains_Mono'] text-xs tracking-[0.5em] uppercase mb-4 block">Project
-                        Intel</span>
-                    <h2 class="text-5xl font-['Archivo_Black'] uppercase tracking-tighter mb-8 text-white">Common<br />Inquiries
+                        class="text-brand-red font-['JetBrains_Mono'] text-xs tracking-[0.5em] uppercase mb-4 block">Coral Springs Community</span>
+                    <h2 class="text-5xl font-['Archivo_Black'] uppercase tracking-tighter mb-8 text-white">Frequently<br/>Asked<br/>Questions
                     </h2>
-                    <p class="text-gray-500 max-w-sm leading-relaxed">Detailed specifications on our operational
-                        protocols and architectural standards.</p>
+                    <p class="text-gray-500 max-w-sm leading-relaxed">Licensed & Insured CC #13-P-18294-X</p>
                 </div>
                 <div class="space-y-8">
                     <div class="border-b border-white/10 pb-8">
