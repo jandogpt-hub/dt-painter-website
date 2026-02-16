@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         try {
             // Submit form
-            const response = await fetch('process-contact', {
+            const response = await fetch('process-contact.php', {
                 method: 'POST',
                 body: formData
             });
