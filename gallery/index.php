@@ -10,46 +10,7 @@ include '../includes/header.php';
 // Gallery categories and images
 // In production, this would come from a database or Cloudinary API
 $galleryItems = [
-    [
-        'id' => 1,
-        'title' => 'Kitchen Cabinet Transformation',
-        'category' => 'cabinet-refinishing',
-        'image' => 'after-kitchen-wooden-cabinet-refinishing-after-cabinet-refinishing-coral-springs-dt-painter-07483746.jpg',
-        'description' => 'Italian 2K Polyurethane factory finish on dated oak cabinets',
-        'location' => 'Coral Springs, FL'
-    ],
-    [
-        'id' => 2,
-        'title' => 'Modern White Kitchen Cabinets',
-        'category' => 'cabinet-refinishing',
-        'image' => 'after-kitchen-wooden-cabinet-refinishing-after-cabinet-refinishing-coral-springs-dt-painter-22563524.jpg',
-        'description' => 'Factory-finish cabinet refinishing with durable coating',
-        'location' => 'Parkland, FL'
-    ],
-    [
-        'id' => 3,
-        'title' => 'Elegant Cabinet Restoration',
-        'category' => 'cabinet-refinishing',
-        'image' => 'after-kitchen-wooden-cabinet-refinishing-after-cabinet-refinishing-coral-springs-dt-painter-23022945.jpg',
-        'description' => 'High-end residential cabinet transformation',
-        'location' => 'Coral Springs, FL'
-    ],
-    [
-        'id' => 4,
-        'title' => 'Bathroom Vanity Refinishing',
-        'category' => 'cabinet-refinishing',
-        'image' => 'after-restroom-wooden-cabinet-refinishing-after-cabinet-refinishing-coral-springs-dt-painter-07483779.jpg',
-        'description' => 'Bathroom cabinet restoration with scratch-resistant finish',
-        'location' => 'Coconut Creek, FL'
-    ],
-    [
-        'id' => 5,
-        'title' => 'Custom Side Cabinet',
-        'category' => 'cabinet-refinishing',
-        'image' => 'after-wooden-cabinet-refinishing-after-side-cabinet-refinishing-coral-springs-dt-painter-07483750.jpg',
-        'description' => 'Specialized cabinet refinishing with UV-resistant coating',
-        'location' => 'Boca Raton, FL'
-    ],
+
     [
         'id' => 6,
         'title' => 'Residential Interior',
@@ -65,6 +26,70 @@ $galleryItems = [
         'image' => '116725915_3331832976838491_8558649750644545481_n-residential-painting-coral-springs-dt-painter-07483798.jpg',
         'description' => 'Full interior transformation with expert color consultation',
         'location' => 'Parkland, FL'
+    ],
+    [
+        'id' => 8,
+        'title' => 'Kitchen Cabinet After',
+        'category' => 'cabinet-refinishing',
+        'image' => 'https://res.cloudinary.com/dnwirrcev/image/upload/v1771055870/after-kitchen-cabinet-refinishing-b123-dt-painter_yg7gx7.jpg',
+        'description' => 'Sophisticated finish on classic kitchen cabinetry',
+        'location' => 'Coral Springs, FL'
+    ],
+    [
+        'id' => 9,
+        'title' => 'Pristine Cabinet Update',
+        'category' => 'cabinet-refinishing',
+        'image' => 'https://res.cloudinary.com/dnwirrcev/image/upload/v1771055870/after-kitchen-cabinet-refinishing-c123-dt-painter_lhgnwo.jpg',
+        'description' => 'Bright and modern kitchen cabinet transformation',
+        'location' => 'Parkland, FL'
+    ],
+    [
+        'id' => 10,
+        'title' => 'Cabinet Prep - Before',
+        'category' => 'cabinet-refinishing',
+        'image' => 'https://res.cloudinary.com/dnwirrcev/image/upload/v1771055869/before-kitchen-cabinet-refinishing-c123-dt-painter_czogpz.jpg',
+        'description' => 'Initial state of kitchen cabinets before professional refinishing',
+        'location' => 'Parkland, FL'
+    ],
+    [
+        'id' => 11,
+        'title' => 'Workspace Preparation',
+        'category' => 'cabinet-refinishing',
+        'image' => 'https://res.cloudinary.com/dnwirrcev/image/upload/v1771055869/before-kitchen-cabinet-refinishing-b123-dt-painter_qrebkz.jpg',
+        'description' => 'Meticulous masking and prep work for factory-finish results',
+        'location' => 'Coral Springs, FL'
+    ],
+    [
+        'id' => 12,
+        'title' => 'Before Transformation',
+        'category' => 'cabinet-refinishing',
+        'image' => 'https://res.cloudinary.com/dnwirrcev/image/upload/v1771055869/before-kitchen-cabinet-refinishing-a123-dt-painter_lvpdpp.jpg',
+        'description' => 'Traditional oak cabinets ready for modern update',
+        'location' => 'Coconut Creek, FL'
+    ],
+    [
+        'id' => 13,
+        'title' => 'Base Cabinet Prep',
+        'category' => 'cabinet-refinishing',
+        'image' => 'https://res.cloudinary.com/dnwirrcev/image/upload/v1771055869/before-kitchen-cabinet-refinishing-d123-dt-painter_iqm1f8.jpg',
+        'description' => 'Thorough sanding and preparation of cabinet bases',
+        'location' => 'Boca Raton, FL'
+    ],
+    [
+        'id' => 14,
+        'title' => 'Modernized Cabinet Base',
+        'category' => 'cabinet-refinishing',
+        'image' => 'https://res.cloudinary.com/dnwirrcev/image/upload/v1771055869/after-kitchen-cabinet-refinishing-d123-dt-painter_qrljdu.jpg',
+        'description' => 'Sleek, durable finish applied to kitchen island and bases',
+        'location' => 'Boca Raton, FL'
+    ],
+    [
+        'id' => 15,
+        'title' => 'Final Factory Finish',
+        'category' => 'cabinet-refinishing',
+        'image' => 'https://res.cloudinary.com/dnwirrcev/image/upload/v1771055869/after-kitchen-cabinet-refinishing-a123-dt-painter_pmv32d.jpg',
+        'description' => 'Complete transformation with high-performance coating',
+        'location' => 'Coconut Creek, FL'
     ]
 ];
 
@@ -146,7 +171,10 @@ $categoryCount = [
                     
                     <!-- Image Container -->
                     <div class="aspect-[4/3] overflow-hidden bg-brand-dark">
-                        <img src="/../../assets/01_READY/<?php echo $item['image']; ?>" 
+                        <?php 
+                            $imgSrc = (strpos($item['image'], 'http') === 0) ? $item['image'] : "/../../assets/01_READY/{$item['image']}"; 
+                        ?>
+                        <img src="<?php echo $imgSrc; ?>" 
                              alt="<?php echo htmlspecialchars($item['title']); ?>"
                              class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                              loading="lazy">
@@ -360,7 +388,8 @@ $categoryCount = [
          * @param {Object} image - Image data object
          */
         function displayLightboxImage(image) {
-            document.getElementById('lightboxImage').src = `/../../assets/01_READY/${image.image}`;
+            const imgSrc = image.image.startsWith('http') ? image.image : `/../../assets/01_READY/${image.image}`;
+            document.getElementById('lightboxImage').src = imgSrc;
             document.getElementById('lightboxImage').alt = image.title;
             document.getElementById('lightboxTitle').textContent = image.title;
             document.getElementById('lightboxDescription').textContent = image.description;
