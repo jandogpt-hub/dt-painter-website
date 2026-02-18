@@ -60,9 +60,13 @@ include '../includes/header.php';
                 
                 <!-- Activity 1 -->
                 <div class="bg-white/5 rounded-sm overflow-hidden border border-white/10 hover:border-brand-red/30 transition-colors group">
-                    <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors">
-                        <!-- Icon: Nature/Tree -->
-                        <svg class="w-10 h-10 text-white/20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors overflow-hidden">
+                        <!-- Tall Cypress Image -->
+                        <img 
+                            src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=800&auto=format&fit=crop" 
+                            alt="Tall Cypress Natural Area" 
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        >
                     </div>
                     <div class="p-6">
                         <h3 class="text-lg font-bold text-white mb-2">Tall Cypress Natural Area</h3>
@@ -88,9 +92,18 @@ include '../includes/header.php';
 
                  <!-- Activity 3 -->
                 <div class="bg-white/5 rounded-sm overflow-hidden border border-white/10 hover:border-brand-red/30 transition-colors group">
-                    <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors">
-                         <!-- Icon: Ice Skate/Activity -->
-                         <svg class="w-10 h-10 text-white/20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors overflow-hidden">
+                         <!-- IceDen Video Embed -->
+                         <iframe 
+                            width="100%" 
+                            height="100%" 
+                            src="https://www.youtube.com/embed?listType=search&list=Florida%20Panthers%20IceDen%20Coral%20Springs" 
+                            title="Florida Panthers IceDen Coral Springs" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen
+                            class="w-full h-full"
+                        ></iframe>
                     </div>
                     <div class="p-6">
                         <h3 class="text-lg font-bold text-white mb-2">Florida Panthers IceDen</h3>
@@ -100,8 +113,13 @@ include '../includes/header.php';
 
                 <!-- Activity 4 -->
                  <div class="bg-white/5 rounded-sm overflow-hidden border border-white/10 hover:border-brand-red/30 transition-colors group">
-                    <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors">
-                        <svg class="w-10 h-10 text-white/20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                    <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors overflow-hidden">
+                        <!-- Museum Image -->
+                        <img 
+                            src="https://images.unsplash.com/photo-1561214115-f2f134cc4912?q=80&w=800&auto=format&fit=crop" 
+                            alt="Coral Springs Museum of Art" 
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        >
                     </div>
                     <div class="p-6">
                         <h3 class="text-lg font-bold text-white mb-2">Coral Springs Museum of Art</h3>
@@ -111,8 +129,13 @@ include '../includes/header.php';
 
                 <!-- Activity 5 -->
                  <div class="bg-white/5 rounded-sm overflow-hidden border border-white/10 hover:border-brand-red/30 transition-colors group">
-                    <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors">
-                        <svg class="w-10 h-10 text-white/20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
+                    <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors overflow-hidden">
+                        <!-- Mullins Park Image -->
+                        <img 
+                            src="https://images.unsplash.com/photo-1570953122198-297eb65e8d5e?q=80&w=800&auto=format&fit=crop" 
+                            alt="Mullins Park" 
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        >
                     </div>
                     <div class="p-6">
                         <h3 class="text-lg font-bold text-white mb-2">Mullins Park</h3>
@@ -122,8 +145,13 @@ include '../includes/header.php';
 
                  <!-- Activity 6 -->
                  <div class="bg-white/5 rounded-sm overflow-hidden border border-white/10 hover:border-brand-red/30 transition-colors group">
-                    <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors">
-                        <svg class="w-10 h-10 text-white/20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                    <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors overflow-hidden">
+                        <!-- The Walk Image -->
+                        <img 
+                            src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=800&auto=format&fit=crop" 
+                            alt="The Walk on University" 
+                            class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+                        >
                     </div>
                     <div class="p-6">
                         <h3 class="text-lg font-bold text-white mb-2">The Walk on University</h3>
