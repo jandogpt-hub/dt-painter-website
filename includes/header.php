@@ -145,6 +145,42 @@ include_once __DIR__ . '/config.php';
                     </div>
                 </div>
 
+                <!-- Areas Served Dropdown -->
+                <div class="relative group">
+                    <button class="flex items-center gap-1 hover:text-brand-red transition-colors focus:outline-none py-4">
+                        Areas Served
+                        <svg class="w-4 h-4 text-gray-400 group-hover:text-brand-red transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+                    <div class="absolute top-full left-0 mt-0 w-56 bg-[#0A0A0A] border border-white/10 rounded-sm shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 transform origin-top-left z-50">
+                        <div class="py-2 flex flex-col">
+                            <a href="/area-served/coral-springs.php" class="px-5 py-3 hover:bg-white/5 hover:text-brand-red transition-colors border-b border-white/5 flex items-center justify-between group/item">
+                                Coral Springs
+                                <span class="text-brand-red opacity-0 group-hover/item:opacity-100 transition-opacity">→</span>
+                            </a>
+                            <!-- 
+                            <a href="/area-served/parkland.php" class="px-5 py-3 hover:bg-white/5 hover:text-brand-red transition-colors border-b border-white/5 flex items-center justify-between group/item">
+                                Parkland
+                                <span class="text-brand-red opacity-0 group-hover/item:opacity-100 transition-opacity">→</span>
+                            </a>
+                            <a href="/area-served/coconut-creek.php" class="px-5 py-3 hover:bg-white/5 hover:text-brand-red transition-colors border-b border-white/5 flex items-center justify-between group/item">
+                                Coconut Creek
+                                <span class="text-brand-red opacity-0 group-hover/item:opacity-100 transition-opacity">→</span>
+                            </a>
+                            <a href="/area-served/margate.php" class="px-5 py-3 hover:bg-white/5 hover:text-brand-red transition-colors border-b border-white/5 flex items-center justify-between group/item">
+                                Margate
+                                <span class="text-brand-red opacity-0 group-hover/item:opacity-100 transition-opacity">→</span>
+                            </a>
+                            <a href="/area-served/tamarac.php" class="px-5 py-3 hover:bg-white/5 hover:text-brand-red transition-colors flex items-center justify-between group/item">
+                                Tamarac
+                                <span class="text-brand-red opacity-0 group-hover/item:opacity-100 transition-opacity">→</span>
+                            </a>
+                            -->
+                        </div>
+                    </div>
+                </div>
+
                 <a class="hover:text-brand-red transition-colors" href="/gallery/">Gallery</a>
                 <a class="hover:text-brand-red transition-colors" href="/about.php">About</a>
                 <a class="hover:text-brand-red transition-colors" href="/contact.php">Contact</a>
@@ -179,6 +215,14 @@ include_once __DIR__ . '/config.php';
                 <a href="/services/pressure-washing.php" class="text-lg text-gray-300 pl-4 border-l border-white/10 hover:border-brand-red hover:text-white transition-all">Pressure Washing</a>
              </div>
              <a href="/gallery/" class="text-2xl font-bold text-white border-b border-white/5 pb-4 mt-2">Gallery</a>
+             <div class="flex flex-col gap-4 border-b border-white/5 pb-4">
+                <span class="text-xs font-bold text-brand-red uppercase tracking-widest mt-2">Areas Served</span>
+                <a href="/area-served/coral-springs.php" class="text-lg text-gray-300 pl-4 border-l border-white/10 hover:border-brand-red hover:text-white transition-all">Coral Springs</a>
+                <a href="/area-served/parkland.php" class="text-lg text-gray-300 pl-4 border-l border-white/10 hover:border-brand-red hover:text-white transition-all">Parkland</a>
+                <a href="/area-served/coconut-creek.php" class="text-lg text-gray-300 pl-4 border-l border-white/10 hover:border-brand-red hover:text-white transition-all">Coconut Creek</a>
+                <a href="/area-served/margate.php" class="text-lg text-gray-300 pl-4 border-l border-white/10 hover:border-brand-red hover:text-white transition-all">Margate</a>
+                <a href="/area-served/tamarac.php" class="text-lg text-gray-300 pl-4 border-l border-white/10 hover:border-brand-red hover:text-white transition-all">Tamarac</a>
+             </div>
              <a href="/about.php" class="text-2xl font-bold text-white border-b border-white/5 pb-4">About</a>
              <a href="/contact.php" class="text-2xl font-bold text-white border-b border-white/5 pb-4">Contact</a>
              <div class="mt-8 space-y-4">

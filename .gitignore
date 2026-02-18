@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -47,3 +48,9 @@ Thumbs.db
 
 # Secrets
 includes/secrets.php
+
+# Draft Area Pages (Hidden from Repo)
+area-served/parkland.php
+area-served/coconut-creek.php
+area-served/margate.php
+area-served/tamarac.php

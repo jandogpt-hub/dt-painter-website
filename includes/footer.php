@@ -28,11 +28,13 @@
             <div>
                 <h4 class="text-xs font-bold tracking-widest uppercase mb-8 text-white">Service Areas</h4>
                 <ul class="space-y-4 text-xs text-gray-400 font-medium">
-                    <li><a class="hover:text-brand-red transition-colors" href="/areas/coral-springs.php">Coral Springs</a></li>
-                    <li><a class="hover:text-brand-red transition-colors" href="/areas/parkland.php">Parkland</a></li>
-                    <li><a class="hover:text-brand-red transition-colors" href="/areas/coconut-creek.php">Coconut Creek</a></li>
-                    <li><a class="hover:text-brand-red transition-colors" href="/areas/margate.php">Margate</a></li>
-                    <li><a class="hover:text-brand-red transition-colors" href="/areas/eagle-trace.php">Eagle Trace</a></li>
+                    <li><a class="hover:text-brand-red transition-colors" href="/area-served/coral-springs.php">Coral Springs</a></li>
+                    <!--
+                    <li><a class="hover:text-brand-red transition-colors" href="/area-served/parkland.php">Parkland</a></li>
+                    <li><a class="hover:text-brand-red transition-colors" href="/area-served/coconut-creek.php">Coconut Creek</a></li>
+                    <li><a class="hover:text-brand-red transition-colors" href="/area-served/margate.php">Margate</a></li>
+                    <li><a class="hover:text-brand-red transition-colors" href="/area-served/tamarac.php">Tamarac</a></li>
+                    -->
                 </ul>
             </div>
             <div>
