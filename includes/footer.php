@@ -4,7 +4,9 @@
             <div class="space-y-6">
                 <!-- Logo/Brand Area -->
                 <div class="flex items-center gap-2">
-                     <span class="text-2xl font-black tracking-tighter text-white">DT<span class="text-brand-red">PAINTER</span></span>
+                     <a href="/" class="block">
+                        <img src="/assets/images/logo.jpg" alt="DT Painter" class="h-12 w-auto border border-white/10 rounded-sm">
+                     </a>
                 </div>
                 <p class="text-gray-500 text-xs leading-relaxed max-w-xs">
                     Licensed Cabinet Refinishing & Residential Painting Specialist for Coral Springs and Parkland homeowners. Factory-grade finishes without the renovation price tag.
