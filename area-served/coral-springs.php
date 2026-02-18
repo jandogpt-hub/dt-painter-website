@@ -97,7 +97,7 @@ include '../includes/header.php';
                          <iframe 
                             width="100%" 
                             height="100%" 
-                            src="https://www.youtube.com/embed?listType=search&list=Florida%20Panthers%20IceDen%20Coral%20Springs" 
+                            src="https://www.youtube.com/embed/y3h5G_0-Kk4" 
                             title="Florida Panthers IceDen Coral Springs" 
                             frameborder="0" 
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -132,7 +132,7 @@ include '../includes/header.php';
                     <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors overflow-hidden">
                         <!-- Mullins Park Image -->
                         <img 
-                            src="https://images.unsplash.com/photo-1570953122198-297eb65e8d5e?q=80&w=800&auto=format&fit=crop" 
+                            src="https://images.unsplash.com/photo-1496065187959-7f07b8353c55?q=80&w=800&auto=format&fit=crop" 
                             alt="Mullins Park" 
                             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                         >
