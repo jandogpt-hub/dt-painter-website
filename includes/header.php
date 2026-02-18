@@ -159,6 +159,10 @@ include_once __DIR__ . '/config.php';
                                 Coral Springs
                                 <span class="text-brand-red opacity-0 group-hover/item:opacity-100 transition-opacity">→</span>
                             </a>
+                            <a href="/area-served/boca-raton.php" class="px-5 py-3 hover:bg-white/5 hover:text-brand-red transition-colors border-b border-white/5 flex items-center justify-between group/item">
+                                Boca Raton
+                                <span class="text-brand-red opacity-0 group-hover/item:opacity-100 transition-opacity">→</span>
+                            </a>
                             <!-- 
                             <a href="/area-served/parkland.php" class="px-5 py-3 hover:bg-white/5 hover:text-brand-red transition-colors border-b border-white/5 flex items-center justify-between group/item">
                                 Parkland
@@ -218,10 +222,13 @@ include_once __DIR__ . '/config.php';
              <div class="flex flex-col gap-4 border-b border-white/5 pb-4">
                 <span class="text-xs font-bold text-brand-red uppercase tracking-widest mt-2">Areas Served</span>
                 <a href="/area-served/coral-springs.php" class="text-lg text-gray-300 pl-4 border-l border-white/10 hover:border-brand-red hover:text-white transition-all">Coral Springs</a>
+                <a href="/area-served/boca-raton.php" class="text-lg text-gray-300 pl-4 border-l border-white/10 hover:border-brand-red hover:text-white transition-all">Boca Raton</a>
+                <!--
                 <a href="/area-served/parkland.php" class="text-lg text-gray-300 pl-4 border-l border-white/10 hover:border-brand-red hover:text-white transition-all">Parkland</a>
                 <a href="/area-served/coconut-creek.php" class="text-lg text-gray-300 pl-4 border-l border-white/10 hover:border-brand-red hover:text-white transition-all">Coconut Creek</a>
                 <a href="/area-served/margate.php" class="text-lg text-gray-300 pl-4 border-l border-white/10 hover:border-brand-red hover:text-white transition-all">Margate</a>
                 <a href="/area-served/tamarac.php" class="text-lg text-gray-300 pl-4 border-l border-white/10 hover:border-brand-red hover:text-white transition-all">Tamarac</a>
+                -->
              </div>
              <a href="/about.php" class="text-2xl font-bold text-white border-b border-white/5 pb-4">About</a>
              <a href="/contact.php" class="text-2xl font-bold text-white border-b border-white/5 pb-4">Contact</a>

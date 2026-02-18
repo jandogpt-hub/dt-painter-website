@@ -29,6 +29,7 @@
                 <h4 class="text-xs font-bold tracking-widest uppercase mb-8 text-white">Service Areas</h4>
                 <ul class="space-y-4 text-xs text-gray-400 font-medium">
                     <li><a class="hover:text-brand-red transition-colors" href="/area-served/coral-springs.php">Coral Springs</a></li>
+                    <li><a class="hover:text-brand-red transition-colors" href="/area-served/boca-raton.php">Boca Raton</a></li>
                     <!--
                     <li><a class="hover:text-brand-red transition-colors" href="/area-served/parkland.php">Parkland</a></li>
                     <li><a class="hover:text-brand-red transition-colors" href="/area-served/coconut-creek.php">Coconut Creek</a></li>
