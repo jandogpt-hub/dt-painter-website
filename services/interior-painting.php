@@ -78,15 +78,16 @@ include '../includes/header.php';
             </div>
 
             <div class="sticky top-28">
-                <div class="relative bg-white/5 border border-white/10 rounded-lg p-8 aspect-square flex items-center justify-center overflow-hidden">
-                    <div class="text-center relative z-10">
-                        <svg class="w-20 h-20 text-brand-red mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"></path></svg>
-                        <p class="text-white font-bold tracking-widest uppercase text-sm">Precision Interior Work</p>
-                        <p class="text-gray-500 text-xs mt-2 italic">Coral Springs, FL</p>
-                    </div>
+                <div class="relative rounded-lg overflow-hidden border border-white/10 shadow-2xl">
+                    <img
+                        src="https://res.cloudinary.com/dnwirrcev/image/upload/v1771108014/np-interior-painting-a123-dt-painter-coral-springs-fl_r8qg2k.jpg"
+                        alt="Interior painting project by DT Painter in Coral Springs, FL — freshly painted living room with crisp trim and clean wall finish"
+                        class="w-full h-full object-cover block"
+                        loading="lazy"
+                    />
                     <div class="absolute inset-x-0 bottom-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
-                         <span class="text-xs text-white/60 block mb-1">Featured Service</span>
-                         <span class="text-sm font-bold text-white">Full Interior Transformation</span>
+                        <span class="text-xs text-white/60 block mb-1">Featured Project · Coral Springs</span>
+                        <span class="text-sm font-bold text-white">Full Interior Transformation</span>
                     </div>
                 </div>
             </div>
