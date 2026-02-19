@@ -78,13 +78,27 @@ include '../includes/header.php';
             </div>
 
             <div class="sticky top-28">
-                <div class="relative bg-white/5 border border-white/10 rounded-lg p-8 aspect-square flex items-center justify-center overflow-hidden">
-                    <div class="text-center relative z-10">
-                        <svg class="w-20 h-20 text-brand-red mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
-                        <p class="text-white font-bold tracking-widest uppercase text-sm text-center">Exterior Armor System</p>
-                        <p class="text-gray-500 text-xs mt-2 italic text-center">Coral Springs, FL</p>
-                    </div>
-                </div>
+                <?php
+                if (!isset($sliderConfig)) {
+                    $sliderConfig = []; // Ensure variable exists
+                }
+                
+                // Configure slider specific to this page
+                $currentSliderConfig = [
+                    'beforeImage' => 'https://res.cloudinary.com/dnwirrcev/image/upload/v1771105123/before-np-exterior-painting-a123-dt-painter-coral-springs-fl_ffjbk1.jpg',
+                    'afterImage' => 'https://res.cloudinary.com/dnwirrcev/image/upload/v1771105122/after-np-exterior-painting-a123-dt-painter-coral-springs-fl_y5ax8n.jpg',
+                    'beforeLabel' => 'Faded Stucco',
+                    'afterLabel' => 'Armor Shield'
+                ];
+                
+                // Render component
+                // Temporarily overwrite $sliderConfig just for this include
+                $tempConfig = $sliderConfig; 
+                $sliderConfig = $currentSliderConfig;
+                include '../includes/components/before-after-slider.php';
+                $sliderConfig = $tempConfig; // Restore if needed
+                ?>
+                <p class="text-xs text-gray-500 text-center mt-4 italic">Drag slider to see the difference</p>
             </div>
 
         </div>

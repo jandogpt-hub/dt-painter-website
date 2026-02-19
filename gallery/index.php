@@ -158,6 +158,46 @@ $categoryCount = [
         </div>
     </section>
     <!-- END: Gallery Filters -->
+    
+    <!-- BEGIN: Featured Transformation (Before/After) -->
+    <section id="featuredTransformation" class="py-12 bg-black/40 border-b border-white/5 transition-all duration-500 overflow-hidden">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1">
+                    <span class="text-brand-red font-mono text-xs tracking-[0.2em] uppercase mb-4 block">Transformation Spotlight</span>
+                    <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Restoring Curb Appeal</h2>
+                    <p class="text-gray-400 leading-relaxed mb-8">
+                        South Florida's sun can bleach stucco and degrade paint within a few years. See how our "Exterior Armor" system restores vibrancy and seals your home against the elements.
+                    </p>
+                    <div class="flex gap-4">
+                        <div class="flex items-center gap-2 text-sm text-gray-300">
+                             <span class="w-2 h-2 rounded-full bg-brand-red"></span>
+                             <span>Loxon Primer Sealing</span>
+                        </div>
+                        <div class="flex items-center gap-2 text-sm text-gray-300">
+                             <span class="w-2 h-2 rounded-full bg-brand-red"></span>
+                             <span>Duration UV Protection</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2">
+                    <?php
+                    // Create isolated scope for the component
+                    (function() {
+                        $sliderConfig = [
+                            'beforeImage' => 'https://res.cloudinary.com/dnwirrcev/image/upload/v1771105123/before-np-exterior-painting-a123-dt-painter-coral-springs-fl_ffjbk1.jpg',
+                            'afterImage' => 'https://res.cloudinary.com/dnwirrcev/image/upload/v1771105122/after-np-exterior-painting-a123-dt-painter-coral-springs-fl_y5ax8n.jpg',
+                            'beforeLabel' => 'Before',
+                            'afterLabel' => 'Factory Finish'
+                        ];
+                        include '../includes/components/before-after-slider.php';
+                    })();
+                    ?>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: Featured Transformation -->
 
     <!-- BEGIN: Gallery Grid -->
     <section class="py-24 bg-[#0F0F0F]">
@@ -354,6 +394,21 @@ $categoryCount = [
             
             // Show/hide no results message
             noResults.classList.toggle('hidden', visibleCount > 0);
+            
+            // Toggle Featured Transformation Section
+            const featuredSection = document.getElementById('featuredTransformation');
+            if (category === 'cabinet-refinishing' || category === 'interior-painting') {
+                featuredSection.style.height = '0';
+                featuredSection.style.opacity = '0';
+                featuredSection.style.padding = '0';
+                featuredSection.classList.add('pointer-events-none');
+            } else {
+                // Show for 'all' or 'exterior-painting'
+                featuredSection.style.height = 'auto'; // Or specific pixel height if preferred for transition
+                featuredSection.style.opacity = '1';
+                featuredSection.style.padding = ''; // Reset to CSS default
+                featuredSection.classList.remove('pointer-events-none');
+            }
         }
 
         /**
