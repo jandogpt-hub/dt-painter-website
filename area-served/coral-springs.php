@@ -63,7 +63,7 @@ include '../includes/header.php';
                     <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors overflow-hidden">
                         <!-- Tall Cypress Image -->
                         <img 
-                            src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=800&auto=format&fit=crop" 
+                            src="/assets/images/area-served/coral-springs/tall_cypress.jpg" 
                             alt="Tall Cypress Natural Area" 
                             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                         >
@@ -77,9 +77,9 @@ include '../includes/header.php';
                 <!-- Activity 2 -->
                 <div class="bg-white/5 rounded-sm overflow-hidden border border-white/10 hover:border-brand-red/30 transition-colors group">
                     <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors overflow-hidden">
-                        <!-- Dynamic Google Image -->
+                        <!-- Sawgrass Nature Center Image -->
                         <img 
-                            src="https://lh3.googleusercontent.com/p/AF1QipOQMpwdmEPoOhqGPZJzz8zc3hAavUr3YXfP2Nxn=w800" 
+                            src="/assets/images/area-served/coral-springs/sawgrass_nature_center.jpg" 
                             alt="Sawgrass Nature Center" 
                             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                         >
@@ -91,19 +91,22 @@ include '../includes/header.php';
                 </div>
 
                  <!-- Activity 3 -->
-                <div class="bg-white/5 rounded-sm overflow-hidden border border-white/10 hover:border-brand-red/30 transition-colors group">
-                    <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors overflow-hidden">
-                         <!-- IceDen Video Embed -->
-                         <iframe 
-                            width="100%" 
-                            height="100%" 
-                            src="https://www.youtube.com/embed/y3h5G_0-Kk4" 
-                            title="Florida Panthers IceDen Coral Springs" 
-                            frameborder="0" 
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            allowfullscreen
-                            class="w-full h-full"
-                        ></iframe>
+                <div class="bg-white/5 rounded-sm overflow-hidden border border-white/10 hover:border-brand-red/30 transition-colors group cursor-pointer" onclick="this.querySelector('.video-container').innerHTML = '<iframe width=\'100%\' height=\'100%\' src=\'https://www.youtube.com/embed/y3h5G_0-Kk4?autoplay=1\' title=\'Florida Panthers IceDen\' frameborder=\'0\' allow=\'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\' allowfullscreen class=\'w-full h-full object-cover\'></iframe>'">
+                    <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors overflow-hidden relative video-container">
+                         <!-- IceDen Image (Poster) -->
+                         <img 
+                            src="/assets/images/area-served/coral-springs/iceden.jpg" 
+                            alt="Florida Panthers IceDen" 
+                            class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
+                        >
+                        <!-- Play Button Overlay -->
+                        <div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/10 transition-colors">
+                            <div class="w-16 h-16 bg-brand-red rounded-full flex items-center justify-center shadow-lg transform group-hover:scale-110 transition-transform duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-white ml-1" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z" />
+                                </svg>
+                            </div>
+                        </div>
                     </div>
                     <div class="p-6">
                         <h3 class="text-lg font-bold text-white mb-2">Florida Panthers IceDen</h3>
@@ -116,7 +119,7 @@ include '../includes/header.php';
                     <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors overflow-hidden">
                         <!-- Museum Image -->
                         <img 
-                            src="https://images.unsplash.com/photo-1561214115-f2f134cc4912?q=80&w=800&auto=format&fit=crop" 
+                            src="/assets/images/area-served/coral-springs/museum.jpg" 
                             alt="Coral Springs Museum of Art" 
                             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                         >
@@ -132,7 +135,7 @@ include '../includes/header.php';
                     <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors overflow-hidden">
                         <!-- Mullins Park Image -->
                         <img 
-                            src="https://images.unsplash.com/photo-1496065187959-7f07b8353c55?q=80&w=800&auto=format&fit=crop" 
+                            src="/assets/images/area-served/coral-springs/mullins_park.jpg" 
                             alt="Mullins Park" 
                             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                         >
@@ -148,7 +151,7 @@ include '../includes/header.php';
                     <div class="aspect-video bg-gray-800 flex items-center justify-center group-hover:bg-gray-700 transition-colors overflow-hidden">
                         <!-- The Walk Image -->
                         <img 
-                            src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=800&auto=format&fit=crop" 
+                            src="/assets/images/area-served/coral-springs/the_walk.jpg" 
                             alt="The Walk on University" 
                             class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                         >
