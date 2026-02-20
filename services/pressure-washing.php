@@ -78,11 +78,16 @@ include '../includes/header.php';
             </div>
 
             <div class="sticky top-28">
-                <div class="relative bg-white/5 border border-white/10 rounded-lg p-8 aspect-square flex items-center justify-center overflow-hidden">
-                    <div class="text-center relative z-10">
-                        <svg class="w-20 h-20 text-brand-red mx-auto mb-4 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.428 15.428l-2.022.674m-6.714-4.429l-2.022.674m4.603-1.63L11.043 12m8.033 4.012l-2.021.674m0 0l2.021-.674.674 2.021m-2.695-2.695l2.695 2.695M12 3c7.2 0 9 1.8 9 9s-1.8 9-9 9-9-1.8-9-9 1.8-9 9-9z"></path></svg>
-                        <p class="text-white font-bold tracking-widest uppercase text-sm text-center">Ultra-Deep Cleaning</p>
-                        <p class="text-gray-500 text-xs mt-2 italic text-center">Coral Springs, FL</p>
+                <div class="relative rounded-lg overflow-hidden border border-white/10 shadow-2xl">
+                    <img
+                        src="https://res.cloudinary.com/dnwirrcev/image/upload/v1771134140/np-pressure-washing-a123-dt-painter-coral-springs-fl_ao1phm.jpg"
+                        alt="Professional pressure washing service by DT Painter in Coral Springs, FL — clean driveway and exterior surface after soft wash treatment"
+                        class="w-full h-full object-cover block"
+                        loading="lazy"
+                    />
+                    <div class="absolute inset-x-0 bottom-0 p-6 bg-gradient-to-t from-black/80 to-transparent">
+                        <span class="text-xs text-white/60 block mb-1">Featured Project · Coral Springs</span>
+                        <span class="text-sm font-bold text-white">Ultra-Deep Surface Cleaning</span>
                     </div>
                 </div>
             </div>
