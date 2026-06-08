@@ -73,5 +73,5 @@ The skill loads `docs/PRODUCT.md` and `docs/DESIGN.md` automatically. If those f
 ## Custom Instructions
 
 - **Critiques are advisory.** A score of 27/40 does not mean "do not deploy." It means "here are the specific issues." Address P0s and P1s before shipping; defer P2/P3 unless they're quick wins.
-- **Known open issues:** As of 2026-06-01, `index.php` has a P0 (broken `#quote` CTAs), a P1 (brand color mismatch — dark red theme vs. Cobalt/Gold system), and a P2 (testimonial carousel dot count bug). See `critique/2026-06-01T01-39-17Z__index-php.md`.
+- **Known open issues:** Log active issues here as they are identified. Format: `[Px] [filename] — [one-line description]`. Remove entries when resolved.
 - **Do not create design decisions in this room for one-off fixes.** A `decision_*.md` file is for choices that establish a pattern (e.g., "we use CSS scroll grids instead of JS carousels going forward").

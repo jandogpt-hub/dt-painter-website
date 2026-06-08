@@ -37,15 +37,15 @@
 ## Page Drafting Standards
 
 ### Service Pages
-- **H1:** Service name + primary city (e.g., "Interior Painting in Coral Springs, FL")
+- **H1:** Service name + primary city (e.g., "[PRIMARY_SERVICE] in [CITY], [STATE]") — sourced from `CLIENT_PROFILE.md`
 - **Lead paragraph:** 2–3 sentences. What the service is, who it's for, what outcome it delivers. No filler.
-- **Sections required:** Hero, What's Included, Why DT Painter, Service Area, CTA (links to `contact.php`)
+- **Sections required:** Hero, What's Included, Why [CLIENT_NAME], Service Area, CTA (links to `contact.php`)
 - **Schema markup:** `LocalBusiness` + `Service` JSON-LD. Pull license number from `includes/config.php`.
 - **Images:** Use real project photos from `assets/images/`. No stock photos.
 
 ### Area-Served (Geo) Pages
-- **H1:** "Painting Services in [City], FL"
-- **Required sections:** Hero, Local Introduction (genuine local landmarks/context), Services Offered, Why Choose DT Painter, Local Attractions (3–5 with real images), CTA
+- **H1:** "[PRIMARY_SERVICE] in [City], [STATE]" — industry and state sourced from `CLIENT_PROFILE.md`
+- **Required sections:** Hero, Local Introduction (genuine local landmarks/context), Services Offered, Why Choose [CLIENT_NAME], Local Attractions (3–5 with real images), CTA
 - **Images:** Store in `assets/images/area-served/[city-name]/`. Each image must be a real local landmark photo.
 - **Schema markup:** `LocalBusiness` + `AreaServed` JSON-LD.
 - **Tone:** Warm and locally knowledgeable — not generic "we serve [city]" boilerplate.
@@ -58,7 +58,7 @@ Before moving a draft to the live path, confirm all items:
 
 - [ ] File renamed from `topic-name_draft.php` to `topic-name.php`
 - [ ] `<?php include '../includes/header.php'; ?>` and footer wired correctly
-- [ ] All `#quote` anchors replaced with working link to `contact.php` or embedded form
+- [ ] All CTA anchors link to a working destination (`contact.php` or an embedded form — no dead `#` anchors)
 - [ ] Color tokens match `DESIGN.md` — no hardcoded hex values outside the design system
 - [ ] Schema JSON-LD is valid (test at schema.org/validator)
 - [ ] All images exist in `assets/images/` and have descriptive `alt` text

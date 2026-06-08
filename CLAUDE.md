@@ -1,6 +1,8 @@
-# DT Painter — Website Builder Workspace (ICM Layer One)
+# [CLIENT_NAME] — Website Builder Workspace (ICM Layer One)
 
-**Identity:** AI navigation map for the DT Painter Website Builder workspace — a PHP/HTML/CSS local-business site for a premium painting & cabinet refinishing company in Coral Springs, FL.
+**Identity:** AI navigation map for the [CLIENT_NAME] Website Builder workspace — a PHP/HTML/CSS local-business site for [INDUSTRY] in [CITY], [STATE].
+
+> **New client?** Fill out `CLIENT_PROFILE.md` at the root first. That file is the source of truth for all `[PLACEHOLDER]` values in this workspace.
 
 ---
 
@@ -12,7 +14,7 @@
 | Content Pipeline | `content/` | Draft staging for new pages before promotion to the live codebase |
 | PHP Infrastructure | `includes/` | Shared partials, components, config — the site's backbone |
 | Design Artifacts | `.impeccable/` | Critique logs, audit scores, design decisions from the impeccable skill |
-| Live Web Pages | root + `services/` + `area-served/` + `gallery/` | Deployed product — edit with care, these are live |
+| Live Web Pages | root + `services/` + `area-served/` + `gallery/` | Deployed product — edit with care, these are live. `area-served/` only applies to local SEO clients. |
 
 ---
 
@@ -20,7 +22,8 @@
 
 | Task | Go to | Read |
 |---|---|---|
-| Write or edit brand voice, tone, personality | `docs/` | `docs/PRODUCT.md` |
+| Onboard a new client | root | `CLIENT_PROFILE.md` (fill this out first) |
+| Write or edit brand voice, tone, personality | `docs/` | `docs/PRODUCT.md`, `CLIENT_PROFILE.md` |
 | Change colors, typography, spacing, components | `docs/` | `docs/DESIGN.md` |
 | Draft a new service page | `content/services/` | `content/CONTEXT.md`, `docs/PRODUCT.md` |
 | Draft a new area-served geo-page | `content/area-served/` | `content/CONTEXT.md`, `docs/PRODUCT.md` |
@@ -40,7 +43,7 @@
 - **Live pages:** `topic-name.php` (lives in `services/` or `area-served/`)
 - **Critique artifacts:** `YYYY-MM-DDTHH-MM-SSZ__target-file.md` (lives in `.impeccable/critique/`)
 - **Design decisions:** `decision_topic-name.md` (lives in `.impeccable/`)
-- **Images:** `subject-description.jpg` grouped by context folder (e.g., `assets/images/area-served/city-name/`)
+- **Images:** `subject-description.jpg` grouped by context folder (e.g., `assets/images/area-served/[city-name]/` or `assets/images/services/[service-name]/`)
 - **Components:** `component-name.php` (lives in `includes/components/`)
 
 ---

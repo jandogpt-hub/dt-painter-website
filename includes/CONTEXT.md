@@ -23,7 +23,7 @@
 | `nav.php` | Navigation links, mobile menu, dropdowns | Every page |
 | `config.php` | Site-wide constants: business name, phone, license, address | Every page |
 | `image-helper.php` | Utility functions for responsive image output | Any page using images |
-| `components/before-after-slider.php` | Before/after image comparison component | Gallery, service pages |
+| `components/[component-name].php` | [Description of component] | [Pages that use it] |
 
 ---
 
@@ -40,7 +40,7 @@
 
 ### Navigation Rules
 - Navigation links use **Label style** (Semi-bold 600, `0.875rem`, uppercase) per `DESIGN.md`.
-- Active page state must be visually distinct (Cobalt underline or background tint — never just bold).
+- Active page state must be visually distinct (primary color underline or background tint — never just bold). Primary color sourced from `CLIENT_PROFILE.md`.
 - Dropdown menus: white background, `border-radius: 8px`, `box-shadow: var(--shadow-lg)`. No glassmorphism.
 - Mobile menu must have a clear close affordance and must not obscure primary CTAs.
 
