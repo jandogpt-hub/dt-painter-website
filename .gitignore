@@ -49,7 +49,15 @@ Thumbs.db
 # Secrets
 includes/secrets.php
 
-# Draft Area Pages (Hidden from Repo)
+# Content Pipeline (Draft Staging Room — local only until promoted)
+content/area-served/
+content/services/
+# Exception: the CONTEXT.md and room structure are committed
+!content/CONTEXT.md
+!content/area-served/.gitkeep
+!content/services/.gitkeep
+
+# Legacy draft pages (superseded by content/ pipeline — remove when promoted)
 area-served/parkland.php
 area-served/coconut-creek.php
 area-served/margate.php
