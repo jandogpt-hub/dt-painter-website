@@ -1,8 +1,10 @@
-# [CLIENT_NAME] — Website Builder Workspace (ICM Layer One)
+# ICM Website Builder — Master Template (ICM Layer One)
 
-**Identity:** AI navigation map for the [CLIENT_NAME] Website Builder workspace — a PHP/HTML/CSS local-business site for [INDUSTRY] in [CITY], [STATE].
+**Identity:** This is the master template repo (`icm-workspace-builder`). It is not a live client site. Clone it for each new client, then fill out `CLIENT_PROFILE.md` to activate the workspace for that client. See `SETUP.md` for the full process.
 
-> **New client?** Fill out `CLIENT_PROFILE.md` at the root first. That file is the source of truth for all `[PLACEHOLDER]` values in this workspace.
+> **Working in a cloned client repo?** Replace this header with: `# [CLIENT_NAME] — Website Builder Workspace (ICM Layer One)` and update the identity line below to reflect the client's name, industry, city, and state. Then delete this note.
+
+**Client identity:** [CLIENT_NAME] — [INDUSTRY] in [CITY], [STATE]
 
 ---
 
