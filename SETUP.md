@@ -6,22 +6,89 @@ A workspace with unresolved `[PLACEHOLDER]` values will produce drifted output.
 
 ---
 
+## Phase 0 — Clone This Template
+*This phase runs in the TEMPLATE repo (this folder), not the client folder.*
+*It only lives here. The client repo never sees these instructions.*
+
+### What this template is
+
+This folder (`ICM-WEBSITE-BUILDER` or equivalent) is the **master template**. It is never a live client site. You clone from it, build in the clone, and keep this folder clean and current as the canonical starting point for every new project.
+
+**Rule:** Never do client-specific work directly in this folder. If you catch yourself editing a page or writing client copy here, stop — you're in the wrong place.
+
+### Step 0.1 — Confirm the template is clean
+
+Before cloning, verify this template is in a clean, up-to-date state:
+
+- [ ] All `[PLACEHOLDER]` values are still placeholders — no previous client data has leaked in
+- [ ] `docs/PRODUCT.md` and `docs/DESIGN.md` contain only `[TODO]` markers, not real client content
+- [ ] `includes/config.php` constants are all placeholder values (no real phone numbers, emails, or addresses)
+- [ ] `assets/images/` contains only the folder structure and `.gitkeep` files — no client photos
+- [ ] `services/` and `area-served/` contain no real client pages
+- [ ] `.impeccable/critique/` is empty — no previous client critique files
+- [ ] `git status` is clean on `main` — no uncommitted changes
+
+If any of the above fail, fix them in the template before cloning. A dirty template produces a dirty client site.
+
+### Step 0.2 — Clone the template for a new client
+
+Run these commands from the **parent directory** that contains this template folder:
+
+```bash
+# 1. Copy the template folder and name it after the client
+cp -r ICM-WEBSITE-BUILDER CLIENT-NAME
+
+# 2. Move into the new client folder
+cd CLIENT-NAME
+
+# 3. Strip the template's git history
+rm -rf .git
+
+# 4. Initialize a fresh repo
+git init
+
+# 5. Stage everything and make the first commit
+git add .
+git commit -m "init: CLIENT-NAME website workspace"
+
+# 6. Create a new GitHub repo (do this on GitHub first), then connect it
+git remote add origin https://github.com/YOUR-USERNAME/CLIENT-NAME.git
+git push -u origin main
+```
+
+> On Windows, use `xcopy /E /I ICM-WEBSITE-BUILDER CLIENT-NAME` or copy via File Explorer, then run the `git` steps in PowerShell.
+
+### Step 0.3 — Open the client folder in Claude Code
+
+- [ ] Open the new `CLIENT-NAME` folder as the working directory in Claude Code
+- [ ] Confirm `CLAUDE.md` is present at the root — this is the AI's map for the new workspace
+- [ ] Proceed to **Phase 1** below
+
+### Step 0.4 — Keep this template up to date
+
+Any time you discover a missing checklist item, a better default, or a structural improvement during a client project:
+
+- [ ] Note it
+- [ ] Come back to this template repo and apply the improvement here
+- [ ] Commit it: `"improve: [description of what was learned]"`
+
+The template gets smarter with every client. That's the compounding value of the ICM framework.
+
+---
+
 ## Phase 1 — Workspace Initialization
-*Do this once. Takes ~10 minutes. Never skip.*
+*Do this once, inside the new client folder. Takes ~10 minutes. Never skip.*
 
-### Step 1.1 — Copy & Rename the Template
+### Step 1.1 — Confirm the clone landed correctly
 
-- [ ] Copy the entire template folder
-- [ ] Rename the folder to the client name (e.g., `ABC-Plumbing`)
+- [ ] You are now inside the **client folder**, not the template folder
+- [ ] Rename the folder to the client name (e.g., `ABC-Plumbing`) if you haven't already
 - [ ] Open the folder in your editor / Claude Code
 
-### Step 1.2 — Strip the Old Git History
+### Step 1.2 — Confirm git is initialized correctly
 
-- [ ] Delete the `.git` folder inside the copied folder (this severs all DT Painter history)
-- [ ] Run `git init` to initialize a clean repository
-- [ ] Run `git add .` and make the first commit: `"init: [CLIENT_NAME] website workspace"`
-- [ ] Create a new GitHub repo named after the client
-- [ ] Push: `git remote add origin [REPO_URL]` → `git push -u origin main`
+- [ ] Run `git log --oneline` — you should see exactly one commit: `"init: [CLIENT_NAME] website workspace"`
+- [ ] Run `git remote -v` — confirms the remote points to the new client repo, not the template
 
 ### Step 1.3 — Clear Previous Client Content from Docs
 
