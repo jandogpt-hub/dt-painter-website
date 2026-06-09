@@ -22,7 +22,7 @@
 
 | Task | Go to | Read |
 |---|---|---|
-| Onboard a new client | root | `CLIENT_PROFILE.md` (fill this out first) |
+| Onboard a new client | root | `SETUP.md` (start here), then `CLIENT_PROFILE.md` |
 | Write or edit brand voice, tone, personality | `docs/` | `docs/PRODUCT.md`, `CLIENT_PROFILE.md` |
 | Change colors, typography, spacing, components | `docs/` | `docs/DESIGN.md` |
 | Draft a new service page | `content/services/` | `content/CONTEXT.md`, `docs/PRODUCT.md` |
